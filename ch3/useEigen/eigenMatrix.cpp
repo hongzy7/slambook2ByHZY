@@ -50,5 +50,36 @@ int main()
   std::cout << "times 10:\n" << 10 * matrix_33 << std::endl;
   std::cout << "inverse:\n" << matrix_33.inverse() << std::endl;
   std::cout << "det:\n" << matrix_33.determinant() << std::endl;
+
+  //特征值
+  Eigen::SelfAdjointEigenSolver<Eigen::Matrix3d> eigen_solver(matrix_33.transpose() * matrix_33);
+  std::cout << "Eigen values = \n" << eigen_solver.eigenvalues() << std::endl;
+  std::cout << "Eigen vectors = \n" << eigen_solver.eigenvectors() << std::endl;
+
+  //解方程
+  Eigen::Matrix<double, MATRIX_SIZE, MATRIX_SIZE> matrix_NN = Eigen::MatrixXd::Random(MATRIX_SIZE, MATRIX_SIZE);
+  matrix_NN = matrix_NN * matrix_NN.transpose();  // 保证半正定
+  Eigen::Matrix<double, MATRIX_SIZE, 1> v_Nd = Eigen::MatrixXd::Random(MATRIX_SIZE, 1);
+
+  clock_t time_stt = clock();  //计时
+  Eigen::Matrix<double, MATRIX_SIZE, 1> x = matrix_NN.inverse() * v_Nd;
+  std::cout << "\n time of normal inverse is " << 1000 * (clock() - time_stt) / (double)CLOCKS_PER_SEC << "ms"
+            << std::endl;
+  std::cout << "x = " << x.transpose() << std::endl;
+
+  //通常用矩阵分解来求解，例如QR分解，速度会快很多
+  time_stt = clock();
+  x = matrix_NN.colPivHouseholderQr().solve(v_Nd);
+  std::cout << "\n time of QR decomposition is " << 1000 * (clock() - time_stt) / (double)CLOCKS_PER_SEC << "ms"
+            << std::endl;
+  std::cout << "x = " << x.transpose() << std::endl;
+
+  //对于正定矩阵，还可以用cholesky分解来求解方程
+  time_stt = clock();
+  x = matrix_NN.ldlt().solve(v_Nd);
+  std::cout << "\n time of ldlt(chlolesky) decomposition is " << 1000 * (clock() - time_stt) / (double)CLOCKS_PER_SEC
+            << "ms" << std::endl;
+  std::cout << "x = " << x.transpose() << std::endl;
+
   return 0;
 }
