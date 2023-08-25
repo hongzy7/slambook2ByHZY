@@ -115,6 +115,61 @@ clean: useEigen/CMakeFiles/eigenMatrix.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory useGeometry
+
+# Convenience name for "all" pass in the directory.
+useGeometry/all: useGeometry/CMakeFiles/useGeometry.dir/all
+
+.PHONY : useGeometry/all
+
+# Convenience name for "clean" pass in the directory.
+useGeometry/clean: useGeometry/CMakeFiles/useGeometry.dir/clean
+
+.PHONY : useGeometry/clean
+
+# Convenience name for "preinstall" pass in the directory.
+useGeometry/preinstall:
+
+.PHONY : useGeometry/preinstall
+
+#=============================================================================
+# Target rules for target useGeometry/CMakeFiles/useGeometry.dir
+
+# All Build rule for target.
+useGeometry/CMakeFiles/useGeometry.dir/all:
+	$(MAKE) -f useGeometry/CMakeFiles/useGeometry.dir/build.make useGeometry/CMakeFiles/useGeometry.dir/depend
+	$(MAKE) -f useGeometry/CMakeFiles/useGeometry.dir/build.make useGeometry/CMakeFiles/useGeometry.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hzy/Documents/slambook2ByHZY/build/CMakeFiles --progress-num=3,4 "Built target useGeometry"
+.PHONY : useGeometry/CMakeFiles/useGeometry.dir/all
+
+# Include target in all.
+all: useGeometry/CMakeFiles/useGeometry.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+useGeometry/CMakeFiles/useGeometry.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hzy/Documents/slambook2ByHZY/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 useGeometry/CMakeFiles/useGeometry.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hzy/Documents/slambook2ByHZY/build/CMakeFiles 0
+.PHONY : useGeometry/CMakeFiles/useGeometry.dir/rule
+
+# Convenience name for target.
+useGeometry: useGeometry/CMakeFiles/useGeometry.dir/rule
+
+.PHONY : useGeometry
+
+# clean rule for target.
+useGeometry/CMakeFiles/useGeometry.dir/clean:
+	$(MAKE) -f useGeometry/CMakeFiles/useGeometry.dir/build.make useGeometry/CMakeFiles/useGeometry.dir/clean
+.PHONY : useGeometry/CMakeFiles/useGeometry.dir/clean
+
+# clean rule for target.
+clean: useGeometry/CMakeFiles/useGeometry.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

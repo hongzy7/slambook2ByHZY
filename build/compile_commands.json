@@ -3,5 +3,10 @@
   "directory": "/home/hzy/Documents/slambook2ByHZY/build/useEigen",
   "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/useEigen/eigenMatrix.cpp",
   "file": "/home/hzy/Documents/slambook2ByHZY/ch3/useEigen/eigenMatrix.cpp"
+},
+{
+  "directory": "/home/hzy/Documents/slambook2ByHZY/build/useGeometry",
+  "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/useGeometry.dir/useGeometry.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp",
+  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp"
 }
 ]

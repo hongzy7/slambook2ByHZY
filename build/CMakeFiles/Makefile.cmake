@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "/home/hzy/Documents/slambook2ByHZY/ch3/CMakeLists.txt"
   "/home/hzy/Documents/slambook2ByHZY/ch3/useEigen/CMakeLists.txt"
+  "/home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/CMakeLists.txt"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -43,9 +44,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "useEigen/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "useGeometry/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "useEigen/CMakeFiles/eigenMatrix.dir/DependInfo.cmake"
+  "useGeometry/CMakeFiles/useGeometry.dir/DependInfo.cmake"
   )
