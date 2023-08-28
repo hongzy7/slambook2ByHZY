@@ -136,6 +136,45 @@ useGeometry/fast:
 	$(MAKE) -f useGeometry/CMakeFiles/useGeometry.dir/build.make useGeometry/CMakeFiles/useGeometry.dir/build
 .PHONY : useGeometry/fast
 
+#=============================================================================
+# Target rules for targets named plotTrajectory
+
+# Build rule for target.
+plotTrajectory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plotTrajectory
+.PHONY : plotTrajectory
+
+# fast build rule for target.
+plotTrajectory/fast:
+	$(MAKE) -f examples/CMakeFiles/plotTrajectory.dir/build.make examples/CMakeFiles/plotTrajectory.dir/build
+.PHONY : plotTrajectory/fast
+
+#=============================================================================
+# Target rules for targets named coordinateTransform
+
+# Build rule for target.
+coordinateTransform: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coordinateTransform
+.PHONY : coordinateTransform
+
+# fast build rule for target.
+coordinateTransform/fast:
+	$(MAKE) -f examples/CMakeFiles/coordinateTransform.dir/build.make examples/CMakeFiles/coordinateTransform.dir/build
+.PHONY : coordinateTransform/fast
+
+#=============================================================================
+# Target rules for targets named visualizeGeometry
+
+# Build rule for target.
+visualizeGeometry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualizeGeometry
+.PHONY : visualizeGeometry
+
+# fast build rule for target.
+visualizeGeometry/fast:
+	$(MAKE) -f visualizeGeometry/CMakeFiles/visualizeGeometry.dir/build.make visualizeGeometry/CMakeFiles/visualizeGeometry.dir/build
+.PHONY : visualizeGeometry/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -146,6 +185,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... eigenMatrix"
 	@echo "... useGeometry"
+	@echo "... plotTrajectory"
+	@echo "... coordinateTransform"
+	@echo "... visualizeGeometry"
 .PHONY : help
 
 

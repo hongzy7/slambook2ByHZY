@@ -41,6 +41,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/hzy/Documents/slambook2ByHZY/build/useEigen/cmake_install.cmake")
   include("/home/hzy/Documents/slambook2ByHZY/build/useGeometry/cmake_install.cmake")
+  include("/home/hzy/Documents/slambook2ByHZY/build/examples/cmake_install.cmake")
+  include("/home/hzy/Documents/slambook2ByHZY/build/visualizeGeometry/cmake_install.cmake")
 
 endif()
 

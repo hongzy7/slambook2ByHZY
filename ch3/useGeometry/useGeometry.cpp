@@ -47,6 +47,8 @@ int main(int argc, char** argv)
   std::cout << "(1,0,0) after rotation = " << v_rotated.transpose() << std::endl;
   std::cout << "should be equal to " << (q * Eigen::Quaterniond(0, 1, 0, 0) * q.inverse()).coeffs().transpose()
             << std::endl;  //注意Quaternion的coeff是（x,y,z,w）
+  // 四元数输入顺序(w,x,y,z), 输出时转换为.coeffs()方法为(x,y,z,w)!!!!
+  std::cout << "Eigen::Quaterniond(0, 1, 0, 0) = " << Eigen::Quaterniond(0, 1, 0, 0).coeffs().transpose() << std::endl;
 
   return 0;
 }

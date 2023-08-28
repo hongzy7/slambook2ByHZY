@@ -8,5 +8,20 @@
   "directory": "/home/hzy/Documents/slambook2ByHZY/build/useGeometry",
   "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/useGeometry.dir/useGeometry.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp",
   "file": "/home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp"
+},
+{
+  "directory": "/home/hzy/Documents/slambook2ByHZY/build/examples",
+  "command": "/usr/bin/clang++  -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/eigen3  -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/examples/plotTrajectory.cpp",
+  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/examples/plotTrajectory.cpp"
+},
+{
+  "directory": "/home/hzy/Documents/slambook2ByHZY/build/examples",
+  "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/coordinateTransform.dir/coordinateTransform.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/examples/coordinateTransform.cpp",
+  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/examples/coordinateTransform.cpp"
+},
+{
+  "directory": "/home/hzy/Documents/slambook2ByHZY/build/visualizeGeometry",
+  "command": "/usr/bin/clang++  -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/eigen3  -std=c++11 -g   -std=gnu++14 -o CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/visualizeGeometry/visualizeGeometry.cpp",
+  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/visualizeGeometry/visualizeGeometry.cpp"
 }
 ]

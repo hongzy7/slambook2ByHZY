@@ -6,3 +6,10 @@
 /home/hzy/Documents/slambook2ByHZY/build/useGeometry/CMakeFiles/rebuild_cache.dir
 /home/hzy/Documents/slambook2ByHZY/build/useGeometry/CMakeFiles/edit_cache.dir
 /home/hzy/Documents/slambook2ByHZY/build/useGeometry/CMakeFiles/useGeometry.dir
+/home/hzy/Documents/slambook2ByHZY/build/examples/CMakeFiles/rebuild_cache.dir
+/home/hzy/Documents/slambook2ByHZY/build/examples/CMakeFiles/edit_cache.dir
+/home/hzy/Documents/slambook2ByHZY/build/examples/CMakeFiles/plotTrajectory.dir
+/home/hzy/Documents/slambook2ByHZY/build/examples/CMakeFiles/coordinateTransform.dir
+/home/hzy/Documents/slambook2ByHZY/build/visualizeGeometry/CMakeFiles/rebuild_cache.dir
+/home/hzy/Documents/slambook2ByHZY/build/visualizeGeometry/CMakeFiles/edit_cache.dir
+/home/hzy/Documents/slambook2ByHZY/build/visualizeGeometry/CMakeFiles/visualizeGeometry.dir
