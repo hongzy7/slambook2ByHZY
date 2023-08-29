@@ -1,7 +1,7 @@
-cmake_minimum_required( VERSION 2.8)
+cmake_minimum_required( VERSION 3.0)
 project( visualizeGeometry)
 
-set(CMAKE_CXX_FLAGS "-std=c++11")
+set(CMAKE_CXX_FLAGS "-std=c++14")
 
 include_directories("/usr/include/eigen3")
 

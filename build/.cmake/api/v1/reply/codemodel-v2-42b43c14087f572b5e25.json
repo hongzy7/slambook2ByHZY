@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "ch3",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-ch3-Debug-6a8e7091a8b6e8059f46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ch3"
+				},
+				{
+					"build" : "ch3/useEigen",
+					"jsonFile" : "directory-ch3.useEigen-Debug-0e41ba560dc7cdc5c366.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "ch3/useEigen",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ch3/useGeometry",
+					"jsonFile" : "directory-ch3.useGeometry-Debug-148b7ac20c314de4530f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "ch3/useGeometry",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ch3/examples",
+					"jsonFile" : "directory-ch3.examples-Debug-74e21180662c39cb7d0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ch3/examples",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "ch3/visualizeGeometry",
+					"jsonFile" : "directory-ch3.visualizeGeometry-Debug-e04a04bb4da2378ae2e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "ch3/visualizeGeometry",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "slambookByHZY"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4
+					],
+					"name" : "chapter3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "useEigen",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "useGeometry",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "visualizeGeometry",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "coordinateTransform::@97b4b6a27790568616ae",
+					"jsonFile" : "target-coordinateTransform-Debug-b13fa045478533470d1f.json",
+					"name" : "coordinateTransform",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "eigenMatrix::@63db98f03a3f27d8c389",
+					"jsonFile" : "target-eigenMatrix-Debug-f1dfdb5220378c934af7.json",
+					"name" : "eigenMatrix",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "plotTrajectory::@97b4b6a27790568616ae",
+					"jsonFile" : "target-plotTrajectory-Debug-337d1e32a35ed8be297d.json",
+					"name" : "plotTrajectory",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "useGeometry::@0e6eeed915f52c3b39f7",
+					"jsonFile" : "target-useGeometry-Debug-baf8208c13160e3f75ed.json",
+					"name" : "useGeometry",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "visualizeGeometry::@514e5f99af32fabac0eb",
+					"jsonFile" : "target-visualizeGeometry-Debug-a17698ced3088662dab2.json",
+					"name" : "visualizeGeometry",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wr/Documents/slambook2ByHZY/build",
+		"source" : "/home/wr/Documents/slambook2ByHZY"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

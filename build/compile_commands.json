@@ -1,27 +1,27 @@
 [
 {
-  "directory": "/home/hzy/Documents/slambook2ByHZY/build/useEigen",
-  "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/useEigen/eigenMatrix.cpp",
-  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/useEigen/eigenMatrix.cpp"
+  "directory": "/home/wr/Documents/slambook2ByHZY/build",
+  "command": "/usr/bin/g++ -I/usr/include/eigen3 -O3 -O3 -DNDEBUG -o ch3/useEigen/CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o -c /home/wr/Documents/slambook2ByHZY/ch3/useEigen/eigenMatrix.cpp",
+  "file": "/home/wr/Documents/slambook2ByHZY/ch3/useEigen/eigenMatrix.cpp"
 },
 {
-  "directory": "/home/hzy/Documents/slambook2ByHZY/build/useGeometry",
-  "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/useGeometry.dir/useGeometry.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp",
-  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp"
+  "directory": "/home/wr/Documents/slambook2ByHZY/build",
+  "command": "/usr/bin/g++ -I/usr/include/eigen3 -O3 -O3 -DNDEBUG -o ch3/useGeometry/CMakeFiles/useGeometry.dir/useGeometry.cpp.o -c /home/wr/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp",
+  "file": "/home/wr/Documents/slambook2ByHZY/ch3/useGeometry/useGeometry.cpp"
 },
 {
-  "directory": "/home/hzy/Documents/slambook2ByHZY/build/examples",
-  "command": "/usr/bin/clang++  -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/eigen3  -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/examples/plotTrajectory.cpp",
-  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/examples/plotTrajectory.cpp"
+  "directory": "/home/wr/Documents/slambook2ByHZY/build",
+  "command": "/usr/bin/g++ -I/usr/include/eigen3 -O3 -O3 -DNDEBUG -o ch3/examples/CMakeFiles/coordinateTransform.dir/coordinateTransform.cpp.o -c /home/wr/Documents/slambook2ByHZY/ch3/examples/coordinateTransform.cpp",
+  "file": "/home/wr/Documents/slambook2ByHZY/ch3/examples/coordinateTransform.cpp"
 },
 {
-  "directory": "/home/hzy/Documents/slambook2ByHZY/build/examples",
-  "command": "/usr/bin/clang++   -I/usr/include/eigen3  -O3 -O3 -DNDEBUG   -o CMakeFiles/coordinateTransform.dir/coordinateTransform.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/examples/coordinateTransform.cpp",
-  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/examples/coordinateTransform.cpp"
+  "directory": "/home/wr/Documents/slambook2ByHZY/build",
+  "command": "/usr/bin/g++ -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -isystem /usr/include/eigen3 -isystem /home/wr/env/Pangolin/components/pango_core/include -isystem /home/wr/env/Pangolin/components/pango_display/include -isystem /home/wr/env/Pangolin/components/pango_opengl/include -isystem /home/wr/env/Pangolin/components/pango_image/include -isystem /home/wr/env/Pangolin/components/pango_windowing/include -isystem /home/wr/env/Pangolin/build/include -isystem /home/wr/env/Pangolin/components/pango_vars/include -isystem /home/wr/env/Pangolin/components/pango_geometry/include -isystem /home/wr/env/Pangolin/components/tinyobj/include -isystem /home/wr/env/Pangolin/components/pango_glgeometry/include -isystem /home/wr/env/Pangolin/components/pango_packetstream/include -isystem /home/wr/env/Pangolin/components/pango_plot/include -isystem /home/wr/env/Pangolin/components/pango_scene/include -isystem /home/wr/env/Pangolin/components/pango_tools/include -isystem /home/wr/env/Pangolin/components/pango_video/include -O3 -O3 -DNDEBUG -o ch3/examples/CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o -c /home/wr/Documents/slambook2ByHZY/ch3/examples/plotTrajectory.cpp",
+  "file": "/home/wr/Documents/slambook2ByHZY/ch3/examples/plotTrajectory.cpp"
 },
 {
-  "directory": "/home/hzy/Documents/slambook2ByHZY/build/visualizeGeometry",
-  "command": "/usr/bin/clang++  -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -I/usr/include/eigen3 -isystem /usr/local/include -isystem /usr/local/include/eigen3  -std=c++11 -g   -std=gnu++14 -o CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o -c /home/hzy/Documents/slambook2ByHZY/ch3/visualizeGeometry/visualizeGeometry.cpp",
-  "file": "/home/hzy/Documents/slambook2ByHZY/ch3/visualizeGeometry/visualizeGeometry.cpp"
+  "directory": "/home/wr/Documents/slambook2ByHZY/build",
+  "command": "/usr/bin/g++ -DHAVE_EIGEN -DHAVE_GLEW -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -isystem /usr/include/eigen3 -isystem /home/wr/env/Pangolin/components/pango_core/include -isystem /home/wr/env/Pangolin/components/pango_display/include -isystem /home/wr/env/Pangolin/components/pango_opengl/include -isystem /home/wr/env/Pangolin/components/pango_image/include -isystem /home/wr/env/Pangolin/components/pango_windowing/include -isystem /home/wr/env/Pangolin/build/include -isystem /home/wr/env/Pangolin/components/pango_vars/include -isystem /home/wr/env/Pangolin/components/pango_geometry/include -isystem /home/wr/env/Pangolin/components/tinyobj/include -isystem /home/wr/env/Pangolin/components/pango_glgeometry/include -isystem /home/wr/env/Pangolin/components/pango_packetstream/include -isystem /home/wr/env/Pangolin/components/pango_plot/include -isystem /home/wr/env/Pangolin/components/pango_scene/include -isystem /home/wr/env/Pangolin/components/pango_tools/include -isystem /home/wr/env/Pangolin/components/pango_video/include -std=c++14 -g -o ch3/visualizeGeometry/CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o -c /home/wr/Documents/slambook2ByHZY/ch3/visualizeGeometry/visualizeGeometry.cpp",
+  "file": "/home/wr/Documents/slambook2ByHZY/ch3/visualizeGeometry/visualizeGeometry.cpp"
 }
 ]
