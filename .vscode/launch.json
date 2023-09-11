@@ -8,8 +8,8 @@
             "name": "LLDB Debug",
             "type": "lldb",
             "request": "launch",
-            // "program": "${fileDirname}/build/${fileBasenameNoExtension}.out",
-            // "cwd": "${fileDirname}",
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",
             // "preLaunchTask": "Compile"
         }
     ]

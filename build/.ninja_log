@@ -1,11 +1,11 @@
 # ninja log v5
-0	2205	1693290425366451861	ch3/examples/CMakeFiles/coordinateTransform.dir/coordinateTransform.cpp.o	48da9ab52f02bc7b
-2206	2277	1693290425438453276	ch3/examples/coordinateTransform	f2f6e76146fa1270
-10713	10780	1693290433942619893	ch3/useEigen/eigenMatrix	2d58361b3e8a156d
-1	2922	1693290426082465930	ch3/examples/CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o	49dbf34f5c2cda09
-1	2529	1693290494947787792	ch3/useGeometry/CMakeFiles/useGeometry.dir/useGeometry.cpp.o	68e47dc171f67195
-2923	3028	1693290426186467971	ch3/examples/plotTrajectory	87594660a7d4bbdc
-0	10713	1693290433874618564	ch3/useEigen/CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o	9bbd0bb268352ddf
-2529	2603	1693290495023789219	ch3/useGeometry/useGeometry	588da5b20c7df920
-2	5617	1693290719759747617	ch3/visualizeGeometry/CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o	d4377e55ff21b771
-5617	5921	1693290720071752801	ch3/visualizeGeometry/visualizeGeometry	f1716bddb0838e62
+3	3129	1693360563153085047	ch3/examples/CMakeFiles/coordinateTransform.dir/coordinateTransform.cpp.o	559639ec2c00f414
+3129	3219	1693360563249068830	ch3/examples/coordinateTransform	cf8b97601bbd8e6a
+10850	10926	1693360570955789243	ch3/useEigen/eigenMatrix	a611143518316284
+4	4302	1693360564304890690	ch3/visualizeGeometry/CMakeFiles/visualizeGeometry.dir/visualizeGeometry.cpp.o	982ca8759e6837cd
+3	2789	1693360562813142638	ch3/examples/CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o	ee3ba196229f7346
+3	2410	1693360562433207144	ch3/useGeometry/CMakeFiles/useGeometry.dir/useGeometry.cpp.o	ee08df54421bb8e9
+2790	3263	1693360563293061397	ch3/examples/plotTrajectory	ef49e6a9a4df190d
+3	10850	1693360570863804262	ch3/useEigen/CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o	30c63873a59ab173
+2410	2527	1693360562557186094	ch3/useGeometry/useGeometry	6cfacfa09a3116
+4302	4748	1693360564772812016	ch3/visualizeGeometry/visualizeGeometry	667d3ca381a4c33d
